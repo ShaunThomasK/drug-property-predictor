@@ -177,3 +177,5 @@ This project is a learning exercise, not a production tool. A few known limitati
 - Dipole moment predictions are weaker because the property is inherently 3D-dependent, and fingerprints encode 2D structure
 - The conformer search in Phase I is stochastic, in the sense that different random seeds may find slightly different "most stable" conformers for flexible molecules
 - Graph neural networks (GNNs) such as MPNN or SchNet would likely outperform fingerprint-based models here. I just decided to use the Morgan fingerprint model as I was just getting started on how to work with models, and I wanted to learn about the basics 
+
+But yeah, that's this project wrapped up! I learnt a lot about working with the RDKit, xTB, scikit-learn libraries in Python, and a LOT of other things besides, and having explored this field, I cannot wait to delve more into the field of AI-driven drug and protein modeling and property prediction. Hope you find this useful!
